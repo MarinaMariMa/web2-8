@@ -19,3 +19,6 @@ document.getElementById('countdown').textContent =
   counter[1] + '分' +
   counter[0] + '秒' ;
 
+document.getElementById('form').select.onchange = function(){
+  location.href = document.getElementById('form').select.value;
+}
